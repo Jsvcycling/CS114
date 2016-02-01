@@ -1,6 +1,6 @@
-package lab1.part3;
+package lab1;
 
-public class Part1 {
+public class Part3a {
 	public static void main(String[] args) {
 		int[][] data = new int[2][10];
 		
