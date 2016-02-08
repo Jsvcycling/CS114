@@ -1,0 +1,60 @@
+* Abstract Data Types
+- Abstract Data Types (ADT) :: A definition for a data type solely in terms of a
+  set of values and a set of operations on that data type. Each ADT operation
+  is defined by its inputs and outputs.
+
+- Encapsulation :: Hide implementation details.
+
+* The Need for Data Structures
+Data structures organize data into more efficient programs and Object
+Programming.
+
+** Program efficiency
+- Choice of data sturecture or algorithm can make the difference between a
+  program running in seconds or days.
+- An efficient solution minimizese its requirements of
+  - space
+  - time
+- The cost of a solution is quantized in terms of resource that the solution
+  consumes.
+
+** Data Structures
+- A physical exmaple of objects to manage: shipping containers at a dock
+- They must be managed carefully and efficiently
+- None can be lost
+- The containers are generic but contain different cargo
+- Each has an ID number
+- The handlers don't need to know what's inside the container
+
+- Many issues come up
+- How may might we need to hold at any point?
+- How do we keep them organized?
+  - One big line?
+  - Sorted by id?
+  - A grid?
+- Does the order in which they will be unloaded or loaded onto ships matter?
+
+- It turns out no one solution will address all issues adequately
+- Sometimes we'll need to stack them (to reverse the order)
+- Sometimes we'll want to take them in the order they arrive
+- Sometimes more complex solutions are required
+
+** Selecting Data Structures
+Generally want the simpliest data structure that meets requirements.
+
+* Hardware
+Software should always try to utilize all the hardware power in order to reach
+maximum efficiency.
+
+- Central Processing Unit :: Continuously follows the /fetch-decode-execute/
+  /cycle./
+
+** Recursion
+- Recursion :: A programming technique in which a method calls itself to
+  fulfill its purpose.
+- Recursive Definiton :: A definition which uses the word or concept being
+  defined in the definition itself.
+
+Every recursive solution has a corresponding iterative solution.
+
+

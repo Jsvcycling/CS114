@@ -1,0 +1,63 @@
+* Mathematical Background
+Analysis of ADT uses basic math to determine efficiency.
+
+** Proof by counterexample
+Create a scenario that is counter to the statement.
+
+** Proof by contradiction
+Create a scenario in which the statement is falsey.
+
+** Induction
+If something occurs for several examples, it much be true for all
+similar examples.
+
+* Algorithm Efficiency
+Two ways to make an "efficient" algorithm:
+- Simple to understand, write, and debug
+- Quick to run
+
+- The efficiency is an algorithm expressed in terms of CPU time
+- Analysis involves categorizing algorithms based on traits
+
+** Measuring Efficiency
+*** Emperical
+Run program and monitor resources.
+
+Most algorithms, running time is dependent on data size (e.g. T(n) is
+the runtime on an input of size n).
+
+Growth function shows relationship between n and T(n).
+
+*** Asymptotic
+Estimate reosurce consumption of algorithm.
+
+Big-Oh notation describes the upper and lower bounds of an algorithm,
+respectively. The upper bounds are notated using O(n) while the lower
+bounds are notated using <Omega>(n).
+
+When the upper and lower bounds are the same within a constant factor,
+we simply use <Theta>(n) to notate it.
+
+* Basic Data Structures
+** List
+A finite, ordered, sequence of items (called "elements"). By ordered,
+we mean that each item has a specific, unique index in the list. The
+index is an integer.
+
+Java has two types of lists, Array List and Linked List.
+
+*** Array List
+Array Lists store data in sequence in memory (e.g. element B is
+directly prior to element C and directly following element A). Thus,
+array lists are stored as a monolithic memory chunk.
+
+*** Linked List
+Linked Lists store data throughout the memory and use points to refer
+to the element that follows (e.g. element B points to element C, which
+follows, but not to element A, which precedes). Thus, Linked Lists are
+distributed throughout the available memory.
+
+*** Doubly Linked List
+Doubly Linked Lists are similar to Linked Lists with the exception
+that they store pointers to both neighbors (e.g. element B points to
+both element C, which follows, and element A, which leads).
