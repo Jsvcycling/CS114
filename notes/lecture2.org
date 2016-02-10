@@ -1,7 +1,7 @@
 * Abstract Data Types
-- Abstract Data Types (ADT) :: A definition for a data type solely in terms of a
-  set of values and a set of operations on that data type. Each ADT operation
-  is defined by its inputs and outputs.
+- Abstract Data Types (ADT) :: A definition for a data type solely in
+     terms of a set of values and a set of operations on that data
+     type. Each ADT operation is defined by its inputs and outputs.
 
 - Encapsulation :: Hide implementation details.
 
@@ -10,13 +10,13 @@ Data structures organize data into more efficient programs and Object
 Programming.
 
 ** Program efficiency
-- Choice of data sturecture or algorithm can make the difference between a
-  program running in seconds or days.
+- Choice of data sturecture or algorithm can make the difference
+  between a program running in seconds or days.
 - An efficient solution minimizese its requirements of
   - space
   - time
-- The cost of a solution is quantized in terms of resource that the solution
-  consumes.
+- The cost of a solution is quantized in terms of resource that the
+  solution consumes.
 
 ** Data Structures
 - A physical exmaple of objects to manage: shipping containers at a dock
@@ -50,11 +50,9 @@ maximum efficiency.
   /cycle./
 
 ** Recursion
-- Recursion :: A programming technique in which a method calls itself to
-  fulfill its purpose.
-- Recursive Definiton :: A definition which uses the word or concept being
-  defined in the definition itself.
+- Recursion :: A programming technique in which a method calls itself
+     to fulfill its purpose.
+- Recursive Definiton :: A definition which uses the word or concept
+     being defined in the definition itself.
 
 Every recursive solution has a corresponding iterative solution.
-
-
